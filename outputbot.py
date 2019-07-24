@@ -33,7 +33,7 @@ def update_embed():
             
     if data.embed is None:
         
-        data.embed = discord.Embed(title='***TRIVIA WAR***', description="***__GOOGLE SEARCHING__***", color=0xC46210)
+        data.embed = discord.Embed(title='***LOCO SEVER***', description="***__LOCO__***", color=0xC46210)
         data.embed.add_field(name="Answer 1", value= highlighter1 + str(number1) + highlighter1, inline=False)
         data.embed.add_field(name="Answer 2", value= highlighter2 + str(number2) + highlighter2, inline=False)
         data.embed.add_field(name="Answer 3", value= highlighter3 + str(number3) + highlighter3, inline=False)
@@ -44,14 +44,14 @@ def update_embed():
 
     else:
         
-        data.embed = discord.Embed(title='**__TRIVIA WAR__**', description="***__GOOGLE SEARCHING__***", color=0xC46210)
+        data.embed = discord.Embed(title='**__LOCO SEVER__**', description="***__LOCO__***", color=0xC46210)
         data.embed.add_field(name="Answer 1", value= highlighter1 + str(number1) + highlighter1, inline=False)
         data.embed.add_field(name="Answer 2", value= highlighter2 + str(number2) + highlighter2, inline=False)
         data.embed.add_field(name="Answer 3", value= highlighter3 + str(number3) + highlighter3, inline=False)
         data.embed.add_field(name="Best answer:", value= best_answer , inline=True)
         data.embed.set_image(url="https://cdn.discordapp.com/attachments/459865236393164810/493986426745126932/multicolours_1.gif")
         data.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/589247319094853672/601964267650023449/unnamed.png")
-        data.embed.set_footer(text= 'Created by Amit',icon_url="https://media.discordapp.net/attachments/599923364999593985/600700142248525835/images.jpg")
+        data.embed.set_footer(text= 'Created by DEV',icon_url="https://cdn.discordapp.com/attachments/555059875885875201/603338674985500683/trademark-monogram.jpg")
 
 
 
